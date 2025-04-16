@@ -8382,3 +8382,7 @@ blockquote {
   font-style: italic;
   font-display: swap;
 }
+
+.w-webflow-badge{
+  display: none !important;
+}
