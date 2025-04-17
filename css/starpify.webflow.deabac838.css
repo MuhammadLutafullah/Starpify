@@ -8701,3 +8701,34 @@ width: 425px;
     flex-direction: column;
 }
 }
+
+
+.preloader-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full-screen loader */
+}
+
+.rotating-image {
+  width: 100px; /* Adjust size as needed */
+  animation: rotate360 2s linear infinite;
+}
+
+@keyframes rotate360 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.linkedin-otr{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.linkedIn-icon{
+  width: 30px;
+  height: 30px;
+}
